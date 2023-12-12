@@ -244,14 +244,15 @@ form.hero-form {
 /*---- partner section style start ----*/
 
 img.logo-image {
-  filter: saturate(0);
-  opacity: 50%;
+ 
+  opacity: 1;
   transition: ease-in 0.2s;
 }
 
 img.logo-image:hover {
   filter: saturate(100%);
-  opacity: 1;
+  opacity: 50%;
+  filter: saturate(0);
 }
 
 
@@ -293,6 +294,12 @@ iconify-icon.rate {
 .services-components {
   border: 1px solid var(--accent-color);
   transition: all 0.5s ease-in;
+  height: 500px;
+  
+}
+
+.services-components p {
+  margin-bottom: 15px; /* Add some space below paragraphs */
 }
 
 iconify-icon.services-icon {
@@ -303,6 +310,7 @@ iconify-icon.services-icon {
 
 .services-heading {
   transition: all 0.5s ease-in;
+  margin-top: 20px;
 }
 
 .service-btn {
@@ -579,4 +587,13 @@ iconify-icon.quote {
 
 .rate {
   color: var(--accent-color);
+}
+
+
+.image-cercle {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 8px solid  var(--accent-color);
 }

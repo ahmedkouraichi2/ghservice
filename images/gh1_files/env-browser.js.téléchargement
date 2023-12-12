@@ -1,0 +1,11 @@
+(function (window) {
+  window['env'] = window['env'] || {};
+
+  // Environment variables
+  window['env']['gtmTrackingId'] = 'GTM-WB5ZCG3';
+  window['env']['hotjarTrackingId'] = '1184894';
+  window['env']['testEnvironment'] = 'false' === 'true';
+  window['env']['hubSpotConfig'] = JSON.parse('{"appointmentFormId":"2c4da4ce-3444-4729-9359-cc1093ce9682","id":"4732732","professionalFormId":"9b7618c5-aa34-4d78-8f90-a7a37d0f99d6","shareAppointmentFormId":"1LE2kzjRERymTWcwQk86Wgg2tfss"}');
+  window['env']['awsCognitoConfig'] = JSON.parse('{"aws_cognito_identity_pool_id":"us-east-1:16f55fde-293e-4bff-9518-acfe716a4c82","aws_cognito_region":"us-east-1","aws_project_region":"us-east-1","aws_user_pools_id":"us-east-1_Zsh82SWlx","aws_user_pools_web_client_id":"793ottbvod07q7cq000ql795oq","federationTarget":"COGNITO_USER_POOLS","oauth":{"domain":"amplifycustomer-lms-prod.auth.us-east-1.amazoncognito.com","redirectSignIn":"https://travaux.leroymerlin.fr/app/login-entry-point-sso","redirectSignOut":"https://travaux.leroymerlin.fr/app/login/logout","responseType":"code","scope":["phone","email","openid","profile","aws.cognito.signin.user.admin"]}}');
+  window['env']['datadomeConfig'] = JSON.parse('{"isEnabled": true, "key": "C600C332653BE2FA94BD79A2BBF2D0"}');
+})(this);
