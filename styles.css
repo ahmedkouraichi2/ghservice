@@ -155,6 +155,11 @@ a {
   background-position: right center;
 }
 
+   /* Ajout de l'effet de survol */
+   .nav-link:hover {
+    color: #ff4500; /* Couleur de survol */
+}
+
 
 /*---- navigation section style start ----*/
 
@@ -176,6 +181,12 @@ a {
 .nav-link {
   font-size: 1rem;
   font-weight: 700;
+}
+
+.nav-link :hover{
+  color: red;
+  text-decoration: underline #D06051   ;
+  
 }
 
 nav.navbar {
@@ -596,4 +607,68 @@ iconify-icon.quote {
   border-radius: 50%;
   overflow: hidden;
   border: 8px solid  var(--accent-color);
+}
+
+
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
+
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+#entete, #menu, #contenu, #footer {
+  padding:1px 0;
+  }
+  #entete {
+  background-color:#FF9900;
+  text-align:center;
+  }
+  #main {
+  max-with:960px;
+  margin:auto;
+  }
+  #menu  {
+  float:left;
+  width:50%;
+  background-color:#FF3366;
+  }
+  #contenu {
+  margin-left:50%;
+  background-color:#9966FF;
+  }
+ 
+
+
+  .social-icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.social-link-icon {
+    font-size: 24px;
+    color: #333;
+}
+
+.container-folow {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  width: 10em;
 }
