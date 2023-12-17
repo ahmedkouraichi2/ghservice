@@ -305,7 +305,7 @@ iconify-icon.rate {
 .services-components {
   border: 1px solid var(--accent-color);
   transition: all 0.5s ease-in;
-  height: 500px;
+  height: 400px;
   
 }
 
@@ -676,10 +676,121 @@ iconify-icon.quote {
 
 .client-image {
   width: 100px; 
-  height: 100px;
+  height: 500px;
   border-radius: 50%; 
   object-fit: cover; 
 }
 .larger-icon {
   font-size: 5em; /* Ajustez cette valeur selon la taille souhaitée */
 }
+
+
+
+.profile-container {
+  width: 50px;  /* Dimension de l'image */
+  height: 50px;
+  position: relative;
+  border-radius: 50%;  /* Rendre l'image circulaire */
+  overflow: hidden;  /* Pour que l'image ne dépasse pas les bordures arrondies */
+}
+
+
+.profile-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Pour garder les proportions de l'image */
+}
+
+.status-indicator {
+  width: 15px;  /* Taille de l'indicateur */
+  height: 15px;
+  background-color: green;  /* Vert indique que l'utilisateur est en ligne */
+  border: 2px solid white;  /* Bordure pour le distinguer du fond de l'image */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+.services-components .services-icon {
+  width: 80%;  /* Largeur de l'image à 80% de celle du conteneur */
+  margin-left: auto;  /* Centrer l'image horizontalement */
+  margin-right: auto;
+  display: block;  /* Assurer que l'image est traitée comme un bloc pour le centrage */
+}
+
+
+.carousel-item .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item .row {
+  width: 100%;
+}
+
+.carousel-item .col-md-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 300px; /* adjust as needed */
+  margin: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #666;
+  margin: 5px 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  border-radius: 50%;
+}
+
+
+
+.nav-link:hover{
+  color: #D06051;
+  text-decoration: underline 5px  #D06051 ;
+  
+  
+}
+
+.iconify-icon:hover {
+  color: white;
+
+
+}
+
+
